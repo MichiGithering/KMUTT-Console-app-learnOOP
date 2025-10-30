@@ -62,5 +62,9 @@ namespace OOP.Week08_Static
         {
             return _totalSheepCount;
         }
+
+        public void Jump() {
+            Console.WriteLine("Sheep get Gravity " + FarmUtils.Gravity);
+        }
     }
 }

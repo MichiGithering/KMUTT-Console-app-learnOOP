@@ -13,6 +13,11 @@ namespace OOP
         static void Main(string[] args)
         {
             // create Sheep instances
+            // 1. การเข้าถึง Static Property (จะทำให้ Static Constructor ของ Sheep ทำงานก่อน)
+            Console.WriteLine($"Initial Check - Sheep Count: {Sheep.TotalSheepCount}");
+
+            // 2. สร้าง Instance ของ Sheep
+            Console.WriteLine("\n--- Creating Sheep Instances ---");
             Sheep alfred = new Sheep(1);
             Sheep bob = new Sheep(2);
             Sheep clara = new Sheep(3);
@@ -27,6 +32,16 @@ namespace OOP
             dave.SetNumber(5);
             Console.WriteLine("moving dave ...");
             Console.WriteLine("dave is now in pen " + dave.AskNumber());
+
+            // 3. เข้าถึง const โดยใช้ชื่อ Static Class
+            Console.WriteLine($"Accessing const directly: The farm has {FarmUtils.DefaultPens} default pens.");
+
+            // 4. เรียกใช้ Static Class Methods
+            FarmUtils.DisplayCurrentStatus();
+
+            // 5. เรียกใช้ Static Method และดูผลกระทบต่อ Static Property
+            Sheep.RemoveSheep(1);
+            FarmUtils.DisplayCurrentStatus();
         }
 
         private static void Static()

@@ -79,6 +79,17 @@
     <Compile Include="Week08 Static\Constants.cs" />
     <Compile Include="Week08 Static\FarmUtils.cs" />
     <Compile Include="Week08 Static\Sheep.cs" />
+    <Compile Include="Week09 S.O.L.I.D\D\BadDExample.cs" />
+    <Compile Include="Week09 S.O.L.I.D\D\GoblinEnemy.cs" />
+    <Compile Include="Week09 S.O.L.I.D\D\GoodDExaple.cs" />
+    <Compile Include="Week09 S.O.L.I.D\D\Slime.cs" />
+    <Compile Include="Week09 S.O.L.I.D\I\BadIExample.cs" />
+    <Compile Include="Week09 S.O.L.I.D\I\GoodIExample.cs" />
+    <Compile Include="Week09 S.O.L.I.D\L\BadLExample.cs" />
+    <Compile Include="Week09 S.O.L.I.D\L\GoodLExample.cs" />
+    <Compile Include="Week09 S.O.L.I.D\O\UseWeapon.cs" />
+    <Compile Include="Week09 S.O.L.I.D\O\Weapon.cs" />
+    <Compile Include="Week09 S.O.L.I.D\S\PlayerCharacter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

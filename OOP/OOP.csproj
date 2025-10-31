@@ -87,9 +87,18 @@
     <Compile Include="Week09 S.O.L.I.D\I\GoodIExample.cs" />
     <Compile Include="Week09 S.O.L.I.D\L\BadLExample.cs" />
     <Compile Include="Week09 S.O.L.I.D\L\GoodLExample.cs" />
+    <Compile Include="Week09 S.O.L.I.D\O\Axe.cs" />
+    <Compile Include="Week09 S.O.L.I.D\O\BonusWeapon.cs" />
+    <Compile Include="Week09 S.O.L.I.D\O\Bow.cs" />
+    <Compile Include="Week09 S.O.L.I.D\O\Gun.cs" />
+    <Compile Include="Week09 S.O.L.I.D\O\Sword.cs" />
     <Compile Include="Week09 S.O.L.I.D\O\UseWeapon.cs" />
     <Compile Include="Week09 S.O.L.I.D\O\Weapon.cs" />
+    <Compile Include="Week09 S.O.L.I.D\S\CombatSystem.cs" />
+    <Compile Include="Week09 S.O.L.I.D\S\Movement.cs" />
+    <Compile Include="Week09 S.O.L.I.D\S\DataPlayer.cs" />
     <Compile Include="Week09 S.O.L.I.D\S\PlayerCharacter.cs" />
+    <Compile Include="Week09 S.O.L.I.D\S\SaveProgress.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

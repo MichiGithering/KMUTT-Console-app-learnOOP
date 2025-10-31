@@ -27,5 +27,10 @@ namespace OOP.Week09_S.O.L.I.D.O
             // ถ้าเพิ่ม WeaponType.Axe ต้องมาเพิ่ม else if ตรงนี้
             return totalDamage;
         }
+
+        public int CalculateDamage(BonusWeapon weapon)
+        {
+            return weapon.GetDamage();
+        }
     }
 }
